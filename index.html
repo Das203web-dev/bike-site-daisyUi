@@ -27,7 +27,7 @@
 </head>
 
 <body>
-    <header class="md:container md:mx-auto lg:container lg:mx-auto">
+    <header class="md:container md:mx-auto lg:container lg:mx-auto lg:px-4">
         <!-- nav bar section  -->
         <nav class="mt-0 mb-12">
             <div class="navbar bg-base-100">
@@ -175,7 +175,7 @@
         </div>
 
     </header>
-    <main class="container md:mx-auto mt-44">
+    <main class="md:container md:mx-auto lg:container lg:mx-auto lg:px-4 mt-44">
         <!-- <h1>This is main container</h1> -->
 
         <!-- featured bikes section  -->
@@ -186,17 +186,18 @@
                 </h1>
                 <p class="text-primary_color font-semibold text-sm">Best bike collection</p>
             </div>
-            <div class="featured-bikes flex justify-between items-center gap-32 flex-col lg:flex-row md:flex-row">
-                <div>
-                    <img src="images/others/feature-bike.png" alt="">
+            <div
+                class="featured-bikes w-full flex justify-between items-center gap-20 flex-col lg:flex-row md:flex-row">
+                <div class="w-full p-4">
+                    <img class="w-full" src="images/others/feature-bike.png" alt="">
 
                 </div>
-                <div>
-                    <img src="images/others/feature-bike.png" alt="">
+                <div class="w-full p-4">
+                    <img class="w-full" src="images/others/feature-bike.png" alt="">
 
                 </div>
-                <div>
-                    <img src="images/others/feature-bike.png" alt="">
+                <div class="w-full p-4">
+                    <img class="w-full" src="images/others/feature-bike.png" alt="">
 
                 </div>
 
@@ -205,9 +206,9 @@
         </section>
 
         <!-- latest bike section  -->
-        <section class="mt-32 text-center lg:p-0 p-4">
-            <h1 class="text-5xl font-semibold mb-12">
-                latest News
+        <section class="mt-32 text-left lg:text-center lg:p-0 p-4">
+            <h1 class="text-5xl text-center font-semibold mb-12">
+                Latest News
             </h1>
             <div class="latest-bike-section flex flex-col md:flex-row lg:flex-row gap-5">
                 <div class="card w-full bg-base-100 shadow-xl border-2">
@@ -264,7 +265,7 @@
 
         <!-- clients feedback section  -->
         <section class="mt-32 text-center w-full p-4 ">
-            <h1 class="text-5xl font-semibold mb-12">
+            <h1 class="text-5xl text-center font-semibold mb-12">
                 Happy <span class="text-primary_color">Clients says</span>
             </h1>
             <div class="flex flex-col md:flex-row lg:flex-row gap-11 justify-evenly items-center w-full">
